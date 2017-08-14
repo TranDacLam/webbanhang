@@ -1,0 +1,346 @@
+#toast-container {
+    z-index: 1000000000000;
+}
+
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+.toppad
+{margin-top:20px;
+}
+
+
+
+.panel-shadow {
+    box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+.panel-white {
+  border: 1px solid #dddddd;
+}
+.panel-white  .panel-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #ddd;
+}
+.panel-white  .panel-footer {
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.post .post-heading {
+  height: 95px;
+  padding: 20px 15px;
+}
+.post .post-heading .avatar {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-right: 15px;
+}
+.post .post-heading .meta .title {
+  margin-bottom: 0;
+}
+.post .post-heading .meta .title a {
+  color: black;
+}
+.post .post-heading .meta .title a:hover {
+  color: #aaaaaa;
+}
+.post .post-heading .meta .time {
+  margin-top: 8px;
+  color: #999;
+}
+.post .post-image .image {
+  width: 100%;
+  height: auto;
+}
+.post .post-description {
+  padding: 15px;
+}
+.post .post-description p {
+  font-size: 14px;
+}
+.post .post-description .stats {
+  margin-top: 20px;
+}
+.post .post-description .stats .stat-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+.post .post-description .stats .stat-item .icon {
+  margin-right: 8px;
+}
+.post .post-footer {
+  border-top: 1px solid #ddd;
+  padding: 15px;
+}
+.post .post-footer .input-group-addon a {
+  color: #454545;
+}
+.post .post-footer .comments-list {
+  padding: 0;
+  margin-top: 20px;
+  list-style-type: none;
+}
+.post .post-footer .comments-list .comment {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+}
+.post .post-footer .comments-list .comment .avatar {
+  width: 35px;
+  height: 35px;
+}
+.post .post-footer .comments-list .comment .comment-heading {
+  display: block;
+  width: 100%;
+}
+.post .post-footer .comments-list .comment .comment-heading .user {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline;
+  margin-top: 0;
+  margin-right: 10px;
+}
+.post .post-footer .comments-list .comment .comment-heading .time {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 0;
+  display: inline;
+}
+.post .post-footer .comments-list .comment .comment-body {
+  margin-left: 50px;
+}
+.post .post-footer .comments-list .comment > .comments-list {
+  margin-left: 50px;
+}
+
+
+.item-job-list {
+    font-family: 'Cabin';
+    padding: 10px;
+    border: solid 1px silver;
+}
+
+
+.block-pid::before {
+    content:"Tên sản phẩm: ";
+}
+
+
+.block-application::before {
+    content:"Hình ảnh: ";
+}
+
+.block-type::before {
+    content:"Số lượng: ";
+}
+
+
+.block-status::before {
+    content:"Đơn giá: ";
+}
+
+
+.block-organization::before {
+    content: "Giá khuyến mãi: ";
+}
+
+.block-do-action {
+        list-style-type: none;
+        margin-left: 0px;
+        padding-left:0px;
+}
+
+.block-do-action li::before {
+        color: gray;
+}
+
+.item-block-application-id::before { content:"Tổng tiền: "; }
+.item-block-module-id::before { content: "Mod: "; }
+.item-block-class-id::before { content: "Class: "; }
+.item-block-action-id::before { content: "Action: "; }
+
+
+.block-hdr::before {
+    color: gray;
+}
+
+
+.block-hdr {
+    color: black;
+
+}
+
+
+
+.block-last-execution::before {
+    content: "Thanh toán ";
+}
+
+
+.block-next-execution::before {
+    content: "Thời gian đặt ";
+}
+
+
+.block-recurring::before {
+    content: "Trạng thái";
+}
+
+.block-toolbar li {
+    min-width: 150px;
+    margin-top: 5px;
+}
+
+
+.block-col::before {
+   border: 1px solid #888;
+    display: block;    
+    padding: 2px;
+    
+}
+
+
+.block-col-1::before {
+    content: "Sản phẩm";
+    background-color: #fbb;
+}
+
+
+
+.block-col-2::before {
+    content: "Target";
+    background-color: #bfb;
+}
+
+
+
+.block-col-3::before {
+    content: "Schedule";
+    background-color: #bbf;
+}
+
+
+.block-col-4::before {
+    content: "Tổng tiền";
+    background-color: #bbb;
+}
+
+
+
+.block-col {
+    margin-bottom:20px;
+    padding: 20px;
+}
+
+.block-hdr {
+    margin-top: 10px;
+}
+
+
+
+.block-toolbar {
+    margin-top: 10px;
+}
+
+.block-hdr A {
+    position: absolute;
+    right: 10px;
+}
+
+.block-do-action  {
+    width: 100%;
+    
+}
+
+.block-do-action  A {
+    position: absolute;
+    right: 10px;
+} 
+
+
+
+.error_msg {
+    text-align: left;
+    color: red;
+    font-weight: bold;
+    padding: 20px 5px 20px 60px;
+    border: 1px dotted #ccc;
+    background: #f7f7f7 url("../images/warning.png") no-repeat 15px center;
+    /** Thêm CSS 3.0 **/
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.error_msg li {
+    list-style-type: none;
+}
+.result_msg {
+    text-align: left;
+    font-style: italic;
+    font-weight: 500;
+    color: black;
+    padding: 30px 5px 20px 60px;
+    border: 1px solid green;
+    background: #ccadad url("../images/valid.png") no-repeat 15px center;
+}
+.list_data > td /* Dòng chứa record */ {
+    border: 1px solid #eaeaea;
+    padding: 3px;
+}
+.list_data:hover /* Dòng chứa record */ {
+    background: #f6f6f6;
+}
+.aligncenter {
+    text-align: center;
+}
+.alignright {
+    text-align: right;
+}
+.list_table /* Bảng danh sách */ {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 10px auto;
+}
+.list_heading /* Dòng chứa tiêu đề bảng */ {
+    background-image: url("../images/content_bg.png");
+    border-right: 1px solid black;
+}
+.list_heading > td /* Những ô ở dòng tiêu đề */ {
+    font-weight: bold;
+    text-align: center;
+    height: 26px;
+    color: white;
+    background: url('../images/nav_sep.png') no-repeat left bottom;
+    padding: 3px;
+}
+#stars { color: #ee8b2d;}
+#stars-existing { color: #ee8b2d;}
